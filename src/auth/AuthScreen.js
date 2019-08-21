@@ -82,8 +82,7 @@ class AuthScreen extends Component {
                     await Fire.database().ref(`users/${user.uid}`)
                     .set({
                         fullName: this.state.fullName,
-                        nickName: this.state.nickName,
-                        age: this.state.age
+                        username: this.state.username
                     })
 
                     // Login di Redux

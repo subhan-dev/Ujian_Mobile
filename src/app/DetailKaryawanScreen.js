@@ -61,7 +61,6 @@ class DetailKaryawanScreen extends Component {
     render() {
        if(this.state.edit) {
             // Tampilkan mode edit
-            // var diary = this.state.objDiary
             return (
                 <Container>
                         <View style={styles.container}>

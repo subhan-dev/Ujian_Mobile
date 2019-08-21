@@ -5,8 +5,6 @@ import {withNavigation} from 'react-navigation'
 
 class ListDiary extends Component {
     touchable = () => {
-        // Pindah ke screen Detail dengan membawa object diary nya
-        // object diary berada di this.props.data.item
         this.props.navigation.navigate('DetailKaryawan', {data_karyawan:this.props.data.item})
     }
 
